@@ -1,0 +1,10 @@
+
+
+<modal class="mask" wx:if="{{hasMask}}" bindtap='hideMask'>
+    我是遮罩层
+</modal>
+<view style="background-color:#ccc;height:2000rpx;{{hasMask?'position:fixed;':''}}width:100%;
+>
+    小程序弹出层点击穿透问题
+    <button bindtap='showMask'>弹出遮罩层</button>
+</view>
