@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/index1/index1",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/index1/index1",
+    "pages/photoUpload/photoUpload"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000000",
-    "navigationBarTitleText": "留言页面",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "#ffffff"
   }
 }

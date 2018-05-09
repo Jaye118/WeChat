@@ -1,20 +1,8 @@
 <!--index.wxml-->
-<view class='msg-box'>
-  <!-- 留言 -->
-  <view class='send-box'>
-    <input bindinput='changeInputVal' value='{{inputVal}}' class='input' type='text' placeholder='请留言...' placeholder-class='place-input'/>
-    <button size='mini' type='primary' bindtap='addMsg'>添加</button>
-  </view>
-
-  <text class='msg-info' wx:if="{{msgData.length == 0}}">暂无留言...</text>
-
-  <!-- 留言列表 -->
-  <view class='list-view'>
-    <view class='item' wx:for="{{msgData}}" wx:key="{{index}}">
-      <text class='text1'>{{item.msg}}</text>
-      <icon class='close-btn' type='cancel' bindtap='delMsg' data-index="{{index}}"></icon>
-    </view>
-  </view>
+<view style='padding:20rpx'>
+  
+  <navigator url='../index1/index1'>弹出层点击穿透-index1</navigator> 
+  <navigator url='../photoUpload/photoUpload'>照片上传</navigator> 
 
   
 </view>
