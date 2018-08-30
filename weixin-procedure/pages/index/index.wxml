@@ -3,6 +3,6 @@
   
   <navigator url='../index1/index1'>弹出层点击穿透-index1</navigator> 
   <navigator url='../photoUpload/photoUpload'>照片上传</navigator> 
-
+  <navigator url='../map/map'>打开内置地图wx.openLocation</navigator> 
   
 </view>
