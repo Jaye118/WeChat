@@ -1,0 +1,9 @@
+<view bindtap="fcode">-- 点击扫码 --</view>
+
+<view>
+  <view>内容:{{res.result}}</view>
+  <view>的类型:{{res.scanType}}</view>
+  <view>字符集:{{res.charSet}}</view>
+  <view>path:{{res.path}}</view>
+  <view>原始数据:{{res.rawData}}</view>
+</view>
